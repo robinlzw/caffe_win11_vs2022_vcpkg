@@ -1,0 +1,1060 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\blob.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\common.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\data_transformer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\internal_thread.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layer_factory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\absval_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\accuracy_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\argmax_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\base_conv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\base_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\batch_norm_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\batch_reindex_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\bias_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\bnll_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\clip_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\concat_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\contrastive_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\conv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\crop_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_conv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_deconv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_lcn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_lrn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_pooling_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_relu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_sigmoid_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_softmax_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_tanh_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\deconv_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\dropout_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\dummy_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\eltwise_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\elu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\embed_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\euclidean_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\exp_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\filter_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\flatten_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\hdf5_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\hdf5_output_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\hinge_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\im2col_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\image_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\infogain_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\inner_product_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\input_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\log_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\lrn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\lstm_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\lstm_unit_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\memory_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\multinomial_logistic_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\mvn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\neuron_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\parameter_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\pooling_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\power_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\prelu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\recurrent_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\reduction_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\relu_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\reshape_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\rnn_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\scale_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\sigmoid_cross_entropy_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\sigmoid_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\silence_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\slice_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\softmax_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\softmax_loss_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\split_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\spp_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\swish_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\tanh_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\threshold_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\tile_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\window_data_layer.cpp">
+      <Filter>Source\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\net.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\parallel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solver.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\adadelta_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\adagrad_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\adam_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\nesterov_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\rmsprop_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\sgd_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\syncedmem.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\benchmark.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\blocking_queue.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\cudnn.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\db.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\db_leveldb.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\db_lmdb.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\hdf5.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\im2col.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\insert_splits.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\io.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\math_functions.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\signal_handler.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\upgrade_proto.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\blob.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\caffe.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\common.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\data_transformer.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\filler.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\internal_thread.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layer.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layer_factory.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\absval_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\accuracy_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\argmax_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\base_conv_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\base_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\batch_norm_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\batch_reindex_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\bias_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\bnll_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\clip_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\concat_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\contrastive_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\conv_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\crop_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\cudnn_conv_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\cudnn_deconv_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\cudnn_lcn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\cudnn_lrn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\cudnn_pooling_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\cudnn_relu_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\cudnn_sigmoid_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\cudnn_softmax_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\cudnn_tanh_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\deconv_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\dropout_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\dummy_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\eltwise_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\elu_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\embed_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\euclidean_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\exp_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\filter_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\flatten_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\hdf5_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\hdf5_output_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\hinge_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\im2col_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\image_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\infogain_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\inner_product_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\input_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\log_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\lrn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\lstm_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\memory_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\multinomial_logistic_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\mvn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\neuron_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\parameter_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\pooling_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\power_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\prelu_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\python_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\recurrent_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\reduction_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\relu_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\reshape_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\rnn_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\scale_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\sigmoid_cross_entropy_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\sigmoid_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\silence_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\slice_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\softmax_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\softmax_loss_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\split_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\spp_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\swish_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\tanh_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\threshold_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\tile_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\layers\window_data_layer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\net.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\parallel.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\sgd_solvers.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\solver.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\solver_factory.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\syncedmem.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\benchmark.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\blocking_queue.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\cudnn.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\db.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\db_leveldb.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\db_lmdb.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\device_alternate.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\format.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\hdf5.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\im2col.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\insert_splits.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\io.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\math_functions.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\mkl_alternate.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\nccl.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\rng.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\signal_handler.h">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\util\upgrade_proto.hpp">
+      <Filter>Include\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\caffe_config.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\absval_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\accuracy_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\base_data_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\batch_norm_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\batch_reindex_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\bias_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\bnll_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\clip_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\concat_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\contrastive_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\conv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\crop_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_conv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_deconv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_lcn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_lrn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_pooling_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_relu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_sigmoid_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_softmax_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\cudnn_tanh_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\deconv_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\dropout_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\eltwise_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\elu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\embed_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\euclidean_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\exp_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\filter_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\hdf5_data_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\hdf5_output_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\im2col_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\inner_product_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\log_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\lrn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\lstm_unit_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\mvn_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\pooling_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\power_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\prelu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\recurrent_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\reduction_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\relu_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\scale_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\sigmoid_cross_entropy_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\sigmoid_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\silence_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\slice_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\softmax_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\softmax_loss_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\split_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\swish_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\tanh_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\threshold_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\layers\tile_layer.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\adadelta_solver.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\adagrad_solver.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\adam_solver.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\nesterov_solver.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\rmsprop_solver.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\solvers\sgd_solver.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\im2col.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\util\math_functions.cu">
+      <Filter>Source\Cuda</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\proto\caffe.proto">
+      <Filter>Source\Proto</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_absval_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_accuracy_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_base_data_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_batch_norm_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_batch_reindex_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_bias_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_bnll_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_clip_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_concat_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_contrastive_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_conv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_crop_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_conv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_deconv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_lcn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_lrn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_pooling_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_relu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_sigmoid_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_softmax_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_cudnn_tanh_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_deconv_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_dropout_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_eltwise_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_elu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_embed_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_euclidean_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_exp_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_filter_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_hdf5_data_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_hdf5_output_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_im2col_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_inner_product_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_log_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_lrn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_lstm_unit_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_mvn_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_pooling_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_power_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_prelu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_recurrent_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_reduction_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_relu_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_scale_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_sigmoid_cross_entropy_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_sigmoid_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_silence_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_slice_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_softmax_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_softmax_loss_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_split_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_swish_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_tanh_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_threshold_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\layers\$(Configuration)\cuda_compile_1_generated_tile_layer.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_adadelta_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_adagrad_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_adam_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_nesterov_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_rmsprop_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\solvers\$(Configuration)\cuda_compile_1_generated_sgd_solver.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\util\$(Configuration)\cuda_compile_1_generated_im2col.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\CMakeFiles\cuda_compile_1.dir\util\$(Configuration)\cuda_compile_1_generated_math_functions.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{090E03E4-8B55-3635-899D-BFA8ED440C96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BB0F84A4-C475-3AA0-9FB6-F0D81F8729C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{A16CE239-98B6-3178-90C3-BA04A5AD5637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\Util">
+      <UniqueIdentifier>{839FC36E-5956-3F62-94A8-781D752B3FAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{5F196B46-5492-33DF-A60E-9CCDCA636B0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{9E1756DF-1CF6-306F-9131-8BF9983D5538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87D267E2-0E45-3E61-8836-65E0785B1842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Cuda">
+      <UniqueIdentifier>{08ABEE44-9940-39AE-BA6F-857BBCEFC9A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Layers">
+      <UniqueIdentifier>{23A253C0-6C03-3C46-A8EF-2A62297A5195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Proto">
+      <UniqueIdentifier>{0CF4CB39-B037-3C03-8983-70E0A7437894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Util">
+      <UniqueIdentifier>{0ACC4669-FB48-38E8-B8C6-C79C5B097B7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

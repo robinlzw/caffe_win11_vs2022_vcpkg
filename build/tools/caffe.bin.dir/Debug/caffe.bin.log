@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/Users/18282/Documents/ws/face_swap/dependence/caffe/tools/CMakeLists.txt
+  caffe.cpp
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\glog/log_severity.h(57,1): fatal  error C1189: #error:  ERROR macro is defined. Define GLOG_NO_ABBREVIATED_SEVERITIES before including logging.h. See the document for detail.

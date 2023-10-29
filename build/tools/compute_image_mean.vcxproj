@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1B4A5761-4E44-3B3F-95F6-49489FF9582F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>compute_image_mean</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\tools\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">compute_image_mean.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">compute_image_mean-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\tools\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">compute_image_mean.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">compute_image_mean</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/18282/source/repos/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CAFFE_VERSION=1.0.0;USE_LMDB;USE_OPENCV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CAFFE_VERSION=1.0.0;USE_LMDB;USE_OPENCV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/tools/Debug/compute_image_mean-d.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\Debug\caffe-d.lib;..\lib\Debug\caffeproto-d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_system-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_thread-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_filesystem-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_chrono-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_atomic-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\libprotobufd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\lmdb.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\cublas.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_highgui4d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_videoio4d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_imgcodecs4d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_imgproc4d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_core4d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/lib/Debug/compute_image_mean-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/tools/Debug/compute_image_mean-d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/18282/source/repos/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CAFFE_VERSION=1.0.0;USE_LMDB;USE_OPENCV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CAFFE_VERSION=1.0.0;USE_LMDB;USE_OPENCV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/tools/Release/compute_image_mean.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\lib\Release\caffe.lib;..\lib\Release\caffeproto.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_system-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_thread-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_filesystem-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_chrono-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_atomic-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\libprotobuf.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\lmdb.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\cublas.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_highgui4.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_videoio4.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_imgcodecs4.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_imgproc4.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_core4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/lib/Release/compute_image_mean.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/tools/Release/compute_image_mean.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\tools\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/18282/Documents/ws/face_swap/dependence/caffe/tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -SC:/Users/18282/Documents/ws/face_swap/dependence/caffe -BC:/Users/18282/Documents/ws/face_swap/dependence/caffe/build --check-stamp-file C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/18282/Documents/ws/face_swap/dependence/caffe/tools/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -SC:/Users/18282/Documents/ws/face_swap/dependence/caffe -BC:/Users/18282/Documents/ws/face_swap/dependence/caffe/build --check-stamp-file C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/tools/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\tools\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\tools\compute_image_mean.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\ZERO_CHECK.vcxproj">
+      <Project>{F384C21F-53E1-3D1F-8EEE-56EA27B5BDB6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\caffe.vcxproj">
+      <Project>{F5EA12BA-740B-35D0-968B-DDA483F03040}</Project>
+      <Name>caffe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\caffeproto.vcxproj">
+      <Project>{489963C0-7691-3222-9B8C-847728EF7BC7}</Project>
+      <Name>caffeproto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

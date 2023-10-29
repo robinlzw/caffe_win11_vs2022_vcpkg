@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4692E75F-68D6-3E20-A4CF-16B95DF454BB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>test.testbin</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\test\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test.testbin.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test.testbin-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\test\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test.testbin.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test.testbin</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/18282/source/repos/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CAFFE_VERSION=1.0.0;USE_LMDB;USE_OPENCV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CAFFE_VERSION=1.0.0;USE_LMDB;USE_OPENCV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/test/Debug/test.testbin-d.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>gtest.lib;..\..\..\lib\Debug\caffe-d.lib;..\..\..\lib\Debug\caffeproto-d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_system-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_thread-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_filesystem-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_chrono-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\boost_atomic-vc140-mt-gd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\libprotobufd.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\lmdb.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\cublas.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_highgui4d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_videoio4d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_imgcodecs4d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_imgproc4d.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\opencv_core4d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/lib/Debug/test.testbin-d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/test/Debug/test.testbin-d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/18282/source/repos/vcpkg/installed/x64-windows/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CAFFE_VERSION=1.0.0;USE_LMDB;USE_OPENCV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CAFFE_VERSION=1.0.0;USE_LMDB;USE_OPENCV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/test/Release/test.testbin.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>gtest.lib;..\..\..\lib\Release\caffe.lib;..\..\..\lib\Release\caffeproto.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_system-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_thread-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_filesystem-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_chrono-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\boost_atomic-vc140-mt.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\libprotobuf.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\debug\lib\lmdb.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\cudart.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\curand.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib\x64\cublas.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_highgui4.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_videoio4.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_imgcodecs4.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_imgproc4.lib;C:\Users\18282\source\repos\vcpkg\installed\x64-windows\lib\opencv_core4.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/lib/Release/test.testbin.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/test/Release/test.testbin.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_im2col_kernel.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object src/caffe/test/CMakeFiles/cuda_compile_1.dir/$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -E make_directory C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj -D generated_cubin_file:STRING=C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj.cubin.txt -P C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//cuda_compile_1_generated_test_im2col_kernel.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.depend;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\$(Configuration)\cuda_compile_1_generated_test_im2col_kernel.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object src/caffe/test/CMakeFiles/cuda_compile_1.dir/$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -E make_directory C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -D verbose:BOOL=OFF -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj -D generated_cubin_file:STRING=C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//$(Configuration)/cuda_compile_1_generated_test_im2col_kernel.cu.obj.cubin.txt -P C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//cuda_compile_1_generated_test_im2col_kernel.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.depend;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\$(Configuration)\cuda_compile_1_generated_test_im2col_kernel.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/18282/Documents/ws/face_swap/dependence/caffe/src/caffe/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -SC:/Users/18282/Documents/ws/face_swap/dependence/caffe -BC:/Users/18282/Documents/ws/face_swap/dependence/caffe/build --check-stamp-file C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.cmake.pre-gen;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.depend;C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\share\cmake-3.27\Modules\FindCUDA\run_nvcc.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/18282/Documents/ws/face_swap/dependence/caffe/src/caffe/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -SC:/Users/18282/Documents/ws/face_swap/dependence/caffe -BC:/Users/18282/Documents/ws/face_swap/dependence/caffe/build --check-stamp-file C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.cmake.pre-gen;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\cuda_compile_1_generated_test_im2col_kernel.cu.obj.depend;C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\share\cmake-3.27\Modules\FindCUDA\run_nvcc.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_accuracy_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_argmax_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_batch_norm_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_batch_reindex_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_benchmark.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_bias_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_blob.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_caffe_main.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_common.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_concat_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_contrastive_loss_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_convolution_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_crop_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_data_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_data_transformer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_db.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_deconvolution_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_dummy_data_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_eltwise_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_embed_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_euclidean_loss_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_filler.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_filter_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_flatten_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_gradient_based_solver.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_hdf5_output_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_hdf5data_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_hinge_loss_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_im2col_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_image_data_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_infogain_loss_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_inner_product_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_internal_thread.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_io.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_layer_factory.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_lrn_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_lstm_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_math_functions.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_maxpool_dropout_layers.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_memory_data_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_multinomial_logistic_loss_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_mvn_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_net.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_neuron_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_platform.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_pooling_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_power_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_protobuf.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_random_number_generator.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_reduction_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_reshape_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_rnn_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_scale_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_sigmoid_cross_entropy_loss_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_slice_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_softmax_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_softmax_with_loss_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_solver.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_solver_factory.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_split_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_spp_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_stochastic_pooling.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_syncedmem.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_tanh_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_threshold_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_tile_layer.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_upgrade_proto.cpp" />
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_util_blas.cpp" />
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\test\test_caffe_main.hpp" />
+    <ClInclude Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\include\caffe\test\test_gradient_check_util.hpp" />
+    <Object Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir\$(Configuration)\cuda_compile_1_generated_test_im2col_kernel.cu.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\ZERO_CHECK.vcxproj">
+      <Project>{F384C21F-53E1-3D1F-8EEE-56EA27B5BDB6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\caffe.vcxproj">
+      <Project>{F5EA12BA-740B-35D0-968B-DDA483F03040}</Project>
+      <Name>caffe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\caffeproto.vcxproj">
+      <Project>{489963C0-7691-3222-9B8C-847728EF7BC7}</Project>
+      <Name>caffeproto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

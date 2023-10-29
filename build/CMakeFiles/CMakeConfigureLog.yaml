@@ -1,0 +1,732 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+      生成启动时间为 2023/10/29 9:48:36。
+      
+      节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\18282\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+        或批处理文件。
+        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\18282\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\18282\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.31
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/3.27.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+      生成启动时间为 2023/10/29 9:48:37。
+      
+      节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\18282\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+        或批处理文件。
+        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\18282\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\18282\\source\\repos\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\18282\\source\\repos\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.12
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/3.27.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-wldjw0"
+      binary: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-wldjw0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/18282/source/repos/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-wldjw0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_764a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2023/10/29 9:48:39。
+        
+        节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wldjw0\\cmTC_764a4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_764a4.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wldjw0\\Debug\\”。
+          正在创建目录“cmTC_764a4.dir\\Debug\\cmTC_764a4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_764a4.dir\\Debug\\cmTC_764a4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_764a4.dir\\Debug\\cmTC_764a4.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_764a4.dir\\Debug\\\\" /Fd"cmTC_764a4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\source\\repos\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          CMakeCCompilerABI.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_764a4.dir\\Debug\\\\" /Fd"cmTC_764a4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\source\\repos\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wldjw0\\Debug\\cmTC_764a4.exe" /INCREMENTAL /ILK:"cmTC_764a4.dir\\Debug\\cmTC_764a4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-wldjw0/Debug/cmTC_764a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-wldjw0/Debug/cmTC_764a4.lib" /MACHINE:X64  /machine:x64 cmTC_764a4.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_764a4.vcxproj -> C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wldjw0\\Debug\\cmTC_764a4.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-wldjw0/Debug/cmTC_764a4.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_764a4.dir\\Debug\\cmTC_764a4.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_764a4.dir\\Debug\\cmTC_764a4.tlog\\cmTC_764a4.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wldjw0\\cmTC_764a4.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.77
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xrrgwo"
+      binary: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xrrgwo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/18282/source/repos/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xrrgwo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_09ac5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2023/10/29 9:48:39。
+        
+        节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xrrgwo\\cmTC_09ac5.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_09ac5.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xrrgwo\\Debug\\”。
+          正在创建目录“cmTC_09ac5.dir\\Debug\\cmTC_09ac5.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_09ac5.dir\\Debug\\cmTC_09ac5.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_09ac5.dir\\Debug\\cmTC_09ac5.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_09ac5.dir\\Debug\\\\" /Fd"cmTC_09ac5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\18282\\source\\repos\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          CMakeCXXCompilerABI.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_09ac5.dir\\Debug\\\\" /Fd"cmTC_09ac5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\18282\\source\\repos\\vcpkg\\downloads\\tools\\cmake-3.27.1-windows\\cmake-3.27.1-windows-i386\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xrrgwo\\Debug\\cmTC_09ac5.exe" /INCREMENTAL /ILK:"cmTC_09ac5.dir\\Debug\\cmTC_09ac5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xrrgwo/Debug/cmTC_09ac5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xrrgwo/Debug/cmTC_09ac5.lib" /MACHINE:X64  /machine:x64 cmTC_09ac5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_09ac5.vcxproj -> C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xrrgwo\\Debug\\cmTC_09ac5.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xrrgwo/Debug/cmTC_09ac5.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_09ac5.dir\\Debug\\cmTC_09ac5.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_09ac5.dir\\Debug\\cmTC_09ac5.tlog\\cmTC_09ac5.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xrrgwo\\cmTC_09ac5.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.80
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindBoost.cmake:2129 (find_package)"
+      - "C:/Users/18282/source/repos/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:11 (_find_package)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "cmake/Dependencies.cmake:8 (find_package)"
+      - "CMakeLists.txt:52 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-fczmyp"
+      binary: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-fczmyp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/cmake/Modules"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/18282/source/repos/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-fczmyp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4a019.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2023/10/29 9:48:41。
+        
+        节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\cmTC_4a019.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_4a019.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\Debug\\”。
+          正在创建目录“cmTC_4a019.dir\\Debug\\cmTC_4a019.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_4a019.dir\\Debug\\cmTC_4a019.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_4a019.dir\\Debug\\cmTC_4a019.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a019.dir\\Debug\\\\" /Fd"cmTC_4a019.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          src.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a019.dir\\Debug\\\\" /Fd"cmTC_4a019.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\src.c"
+        C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\src.c(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\cmTC_4a019.vcxproj]
+        已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\cmTC_4a019.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\cmTC_4a019.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\src.c(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fczmyp\\cmTC_4a019.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindBoost.cmake:2129 (find_package)"
+      - "C:/Users/18282/source/repos/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:11 (_find_package)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "cmake/Dependencies.cmake:8 (find_package)"
+      - "CMakeLists.txt:52 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xsce06"
+      binary: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xsce06"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/cmake/Modules"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/18282/source/repos/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xsce06'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9894b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2023/10/29 9:48:42。
+        
+        节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xsce06\\cmTC_9894b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_9894b.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xsce06\\Debug\\”。
+          正在创建目录“cmTC_9894b.dir\\Debug\\cmTC_9894b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_9894b.dir\\Debug\\cmTC_9894b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_9894b.dir\\Debug\\cmTC_9894b.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9894b.dir\\Debug\\\\" /Fd"cmTC_9894b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xsce06\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          CheckFunctionExists.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9894b.dir\\Debug\\\\" /Fd"cmTC_9894b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xsce06\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xsce06\\Debug\\cmTC_9894b.exe" /INCREMENTAL /ILK:"cmTC_9894b.dir\\Debug\\cmTC_9894b.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xsce06/Debug/cmTC_9894b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-xsce06/Debug/cmTC_9894b.lib" /MACHINE:X64  /machine:x64 cmTC_9894b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xsce06\\cmTC_9894b.vcxproj]
+        已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xsce06\\cmTC_9894b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xsce06\\cmTC_9894b.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xsce06\\cmTC_9894b.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.39
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindBoost.cmake:2129 (find_package)"
+      - "C:/Users/18282/source/repos/vcpkg/installed/x64-windows/share/boost/vcpkg-cmake-wrapper.cmake:11 (_find_package)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:813 (include)"
+      - "cmake/Dependencies.cmake:8 (find_package)"
+      - "CMakeLists.txt:52 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-87hgbq"
+      binary: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-87hgbq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/cmake/Modules"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/18282/source/repos/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-87hgbq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_94f3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2023/10/29 9:48:42。
+        
+        节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87hgbq\\cmTC_94f3c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_94f3c.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87hgbq\\Debug\\”。
+          正在创建目录“cmTC_94f3c.dir\\Debug\\cmTC_94f3c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_94f3c.dir\\Debug\\cmTC_94f3c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_94f3c.dir\\Debug\\cmTC_94f3c.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94f3c.dir\\Debug\\\\" /Fd"cmTC_94f3c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87hgbq\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          CheckFunctionExists.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94f3c.dir\\Debug\\\\" /Fd"cmTC_94f3c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87hgbq\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87hgbq\\Debug\\cmTC_94f3c.exe" /INCREMENTAL /ILK:"cmTC_94f3c.dir\\Debug\\cmTC_94f3c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-87hgbq/Debug/cmTC_94f3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-87hgbq/Debug/cmTC_94f3c.lib" /MACHINE:X64  /machine:x64 cmTC_94f3c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87hgbq\\cmTC_94f3c.vcxproj]
+        已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87hgbq\\cmTC_94f3c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87hgbq\\cmTC_94f3c.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-87hgbq\\cmTC_94f3c.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/Dependencies.cmake:27 (find_package)"
+      - "CMakeLists.txt:52 (include)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-aztpan"
+      binary: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-aztpan"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/cmake/Modules"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/18282/source/repos/vcpkg"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-aztpan'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b4dcb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2023/10/29 9:48:43。
+        
+        节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aztpan\\cmTC_b4dcb.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b4dcb.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aztpan\\Debug\\”。
+          正在创建目录“cmTC_b4dcb.dir\\Debug\\cmTC_b4dcb.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b4dcb.dir\\Debug\\cmTC_b4dcb.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_b4dcb.dir\\Debug\\cmTC_b4dcb.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_b4dcb.dir\\Debug\\\\" /Fd"cmTC_b4dcb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aztpan\\OpenMPTryFlag.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          OpenMPTryFlag.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_b4dcb.dir\\Debug\\\\" /Fd"cmTC_b4dcb.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aztpan\\OpenMPTryFlag.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aztpan\\Debug\\cmTC_b4dcb.exe" /INCREMENTAL /ILK:"cmTC_b4dcb.dir\\Debug\\cmTC_b4dcb.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-aztpan/Debug/cmTC_b4dcb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-aztpan/Debug/cmTC_b4dcb.lib" /MACHINE:X64  /machine:x64 cmTC_b4dcb.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_b4dcb.vcxproj -> C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aztpan\\Debug\\cmTC_b4dcb.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-aztpan/Debug/cmTC_b4dcb.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_b4dcb.dir\\Debug\\cmTC_b4dcb.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_b4dcb.dir\\Debug\\cmTC_b4dcb.tlog\\cmTC_b4dcb.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aztpan\\cmTC_b4dcb.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.92
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/Dependencies.cmake:27 (find_package)"
+      - "CMakeLists.txt:52 (include)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-pvf62u"
+      binary: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-pvf62u"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_MODULE_PATH: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/cmake/Modules"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/18282/source/repos/vcpkg"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-pvf62u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d740a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2023/10/29 9:48:44。
+        
+        节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvf62u\\cmTC_d740a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d740a.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvf62u\\Debug\\”。
+          正在创建目录“cmTC_d740a.dir\\Debug\\cmTC_d740a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d740a.dir\\Debug\\cmTC_d740a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_d740a.dir\\Debug\\cmTC_d740a.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_d740a.dir\\Debug\\\\" /Fd"cmTC_d740a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvf62u\\OpenMPTryFlag.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          OpenMPTryFlag.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_d740a.dir\\Debug\\\\" /Fd"cmTC_d740a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvf62u\\OpenMPTryFlag.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvf62u\\Debug\\cmTC_d740a.exe" /INCREMENTAL /ILK:"cmTC_d740a.dir\\Debug\\cmTC_d740a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-pvf62u/Debug/cmTC_d740a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-pvf62u/Debug/cmTC_d740a.lib" /MACHINE:X64  /machine:x64 cmTC_d740a.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_d740a.vcxproj -> C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvf62u\\Debug\\cmTC_d740a.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-pvf62u/Debug/cmTC_d740a.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d740a.dir\\Debug\\cmTC_d740a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d740a.dir\\Debug\\cmTC_d740a.tlog\\cmTC_d740a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvf62u\\cmTC_d740a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/Dependencies.cmake:27 (find_package)"
+      - "CMakeLists.txt:52 (include)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-d522f4"
+      binary: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-d522f4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_MODULE_PATH: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/cmake/Modules"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/18282/source/repos/vcpkg"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-d522f4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5de2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2023/10/29 9:48:45。
+        
+        节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d522f4\\cmTC_5de2e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_5de2e.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d522f4\\Debug\\”。
+          正在创建目录“cmTC_5de2e.dir\\Debug\\cmTC_5de2e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_5de2e.dir\\Debug\\cmTC_5de2e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_5de2e.dir\\Debug\\cmTC_5de2e.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_5de2e.dir\\Debug\\\\" /Fd"cmTC_5de2e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d522f4\\OpenMPCheckVersion.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          OpenMPCheckVersion.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_5de2e.dir\\Debug\\\\" /Fd"cmTC_5de2e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d522f4\\OpenMPCheckVersion.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d522f4\\Debug\\cmTC_5de2e.exe" /INCREMENTAL /ILK:"cmTC_5de2e.dir\\Debug\\cmTC_5de2e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-d522f4/Debug/cmTC_5de2e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-d522f4/Debug/cmTC_5de2e.lib" /MACHINE:X64  /machine:x64 cmTC_5de2e.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_5de2e.vcxproj -> C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d522f4\\Debug\\cmTC_5de2e.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-d522f4/Debug/cmTC_5de2e.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_5de2e.dir\\Debug\\cmTC_5de2e.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_5de2e.dir\\Debug\\cmTC_5de2e.tlog\\cmTC_5de2e.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d522f4\\cmTC_5de2e.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.76
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/Dependencies.cmake:27 (find_package)"
+      - "CMakeLists.txt:52 (include)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-2q7qoz"
+      binary: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-2q7qoz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_MODULE_PATH: "C:/Users/18282/Documents/ws/face_swap/dependence/caffe/cmake/Modules"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/18282/source/repos/vcpkg"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-2q7qoz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a5387.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2023/10/29 9:48:46。
+        
+        节点 1 上的项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2q7qoz\\cmTC_a5387.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_a5387.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2q7qoz\\Debug\\”。
+          正在创建目录“cmTC_a5387.dir\\Debug\\cmTC_a5387.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a5387.dir\\Debug\\cmTC_a5387.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_a5387.dir\\Debug\\cmTC_a5387.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_a5387.dir\\Debug\\\\" /Fd"cmTC_a5387.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2q7qoz\\OpenMPCheckVersion.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          OpenMPCheckVersion.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_a5387.dir\\Debug\\\\" /Fd"cmTC_a5387.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2q7qoz\\OpenMPCheckVersion.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2q7qoz\\Debug\\cmTC_a5387.exe" /INCREMENTAL /ILK:"cmTC_a5387.dir\\Debug\\cmTC_a5387.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-2q7qoz/Debug/cmTC_a5387.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-2q7qoz/Debug/cmTC_a5387.lib" /MACHINE:X64  /machine:x64 cmTC_a5387.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_a5387.vcxproj -> C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2q7qoz\\Debug\\cmTC_a5387.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/18282/source/repos/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/CMakeScratch/TryCompile-2q7qoz/Debug/cmTC_a5387.exe -installedDir C:/Users/18282/source/repos/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_a5387.dir\\Debug\\cmTC_a5387.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_a5387.dir\\Debug\\cmTC_a5387.tlog\\cmTC_a5387.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\18282\\Documents\\ws\\face_swap\\dependence\\caffe\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2q7qoz\\cmTC_a5387.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.84
+        
+      exitCode: 0
+...

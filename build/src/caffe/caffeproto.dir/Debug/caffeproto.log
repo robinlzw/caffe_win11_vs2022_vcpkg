@@ -1,0 +1,108 @@
+﻿  Running C++/Python protocol buffer compiler on C:/Users/18282/Documents/ws/face_swap/dependence/caffe/src/caffe/proto/caffe.proto
+  Building Custom Rule C:/Users/18282/Documents/ws/face_swap/dependence/caffe/src/caffe/CMakeLists.txt
+  caffe.pb.cc
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/stubs/status.h(97,15): warning C4251: “google::protobuf::util::status_internal::Status::error_message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::util::status_internal::Status”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/stubs/logging.h(100,15): warning C4251: “google::protobuf::internal::LogMessage::message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LogMessage”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/io/coded_stream.h(1275,28): warning C4251: “google::protobuf::io::CodedOutputStream::default_serialization_deterministic_”: struct“std::atomic<bool>”需要有 dll 接口由 class“google::protobuf::io::CodedOutputStream”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2761,33): message : 参见“std::atomic<bool>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arena_impl.h(401,23): warning C4251: “google::protobuf::internal::SerialArena::space_allocated_”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 class“google::protobuf::internal::SerialArena”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2773,35): message : 参见“std::atomic<unsigned __int64>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arena_impl.h(532,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::alloc_policy_”: class“google::protobuf::internal::TaggedAllocationPolicyPtr”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arena_impl.h(123,7): message : 参见“google::protobuf::internal::TaggedAllocationPolicyPtr”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arena_impl.h(537,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::threads_”: struct“std::atomic<google::protobuf::internal::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arena_impl.h(537,8): message : 参见“std::atomic<google::protobuf::internal::SerialArena *>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arena_impl.h(538,29): warning C4251: “google::protobuf::internal::ThreadSafeArena::hint_”: struct“std::atomic<google::protobuf::internal::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arena_impl.h(537,8): message : 参见“std::atomic<google::protobuf::internal::SerialArena *>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arena_impl.h(660,30): warning C4251: “google::protobuf::internal::ThreadSafeArena::arena_stats_”: class“google::protobuf::internal::ThreadSafeArenaStatsHandle”需要有 dll 接口由 class“google::protobuf::internal::ThreadSafeArena”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arenaz_sampler.h(159,7): message : 参见“google::protobuf::internal::ThreadSafeArenaStatsHandle”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arenastring.h(82,43): warning C4251: “google::protobuf::internal::LazyString::inited_”: struct“std::atomic<const std::string *>”需要有 dll 接口由 class“google::protobuf::internal::LazyString”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arenastring.h(82,16): message : 参见“std::atomic<const std::string *>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arenastring.h(367,19): warning C4251: “google::protobuf::internal::ArenaStringPtr::tagged_ptr_”: class“google::protobuf::internal::TaggedStringPtr”需要有 dll 接口由 struct“google::protobuf::internal::ArenaStringPtr”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/arenastring.h(97,7): message : 参见“google::protobuf::internal::TaggedStringPtr”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/metadata_lite.h(307,15): warning C4251: “google::protobuf::internal::LiteUnknownFieldSetter::buffer_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LiteUnknownFieldSetter”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xstring(5119,29): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/generated_message_util.h(194,20): warning C4251: “google::protobuf::internal::CachedSize::size_”: struct“std::atomic<int>”需要有 dll 接口由 class“google::protobuf::internal::CachedSize”的客户端使用
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\atomic(2768,35): message : 参见“std::atomic<int>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/stubs/mutex.h(136,40): warning C4251: “google::protobuf::internal::WrappedMutex::mu_”: class“google::protobuf::internal::CallOnceInitializedMutex<std::mutex>”需要有 dll 接口由 class“google::protobuf::internal::WrappedMutex”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/stubs/mutex.h(136,3): message : 参见“google::protobuf::internal::CallOnceInitializedMutex<std::mutex>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/descriptor.h(2063,27): warning C4251: “google::protobuf::DescriptorPool::tables_”: class“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<google::protobuf::DescriptorPool::Tables>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/descriptor.h(2063,8): message : 参见“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<google::protobuf::DescriptorPool::Tables>>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/descriptor.h(2073,31): warning C4251: “google::protobuf::DescriptorPool::unused_import_track_files_”: class“std::map<std::string,bool,std::less<std::string>,std::allocator<std::pair<const std::string,bool>>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/descriptor.h(2073,8): message : 参见“std::map<std::string,bool,std::less<std::string>,std::allocator<std::pair<const std::string,bool>>>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/io/zero_copy_stream_impl_lite.h(247,30): warning C4251: “google::protobuf::io::CopyingInputStreamAdaptor::buffer_”: class“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”需要有 dll 接口由 class“google::protobuf::io::CopyingInputStreamAdaptor”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/io/zero_copy_stream_impl_lite.h(247,8): message : 参见“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/io/zero_copy_stream_impl_lite.h(338,30): warning C4251: “google::protobuf::io::CopyingOutputStreamAdaptor::buffer_”: class“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”需要有 dll 接口由 class“google::protobuf::io::CopyingOutputStreamAdaptor”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/io/zero_copy_stream_impl_lite.h(247,8): message : 参见“std::unique_ptr<uint8_t [],std::default_delete<uint8_t []>>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/unknown_field_set.h(211,29): warning C4251: “google::protobuf::UnknownFieldSet::fields_”: class“std::vector<google::protobuf::UnknownField,std::allocator<google::protobuf::UnknownField>>”需要有 dll 接口由 class“google::protobuf::UnknownFieldSet”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/unknown_field_set.h(211,8): message : 参见“std::vector<google::protobuf::UnknownField,std::allocator<google::protobuf::UnknownField>>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/extension_set.h(1057,26): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int32_t_”: class“google::protobuf::RepeatedField<int32_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/repeated_field.h(1193,78): message : 参见“google::protobuf::RepeatedField<int32_t>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/extension_set.h(1058,26): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int64_t_”: class“google::protobuf::RepeatedField<int64_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/repeated_field.h(1195,78): message : 参见“google::protobuf::RepeatedField<int64_t>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/extension_set.h(1059,27): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint32_t_”: class“google::protobuf::RepeatedField<uint32_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/repeated_field.h(1194,79): message : 参见“google::protobuf::RepeatedField<uint32_t>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/extension_set.h(1060,27): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint64_t_”: class“google::protobuf::RepeatedField<uint64_t>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/repeated_field.h(1196,79): message : 参见“google::protobuf::RepeatedField<uint64_t>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/extension_set.h(1061,25): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_double_”: class“google::protobuf::RepeatedField<double>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/repeated_field.h(1198,77): message : 参见“google::protobuf::RepeatedField<double>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/extension_set.h(1062,24): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_float_”: class“google::protobuf::RepeatedField<float>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/repeated_field.h(1197,76): message : 参见“google::protobuf::RepeatedField<float>”的声明
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/extension_set.h(1063,23): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_bool_”: class“google::protobuf::RepeatedField<bool>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/repeated_field.h(1192,75): message : 参见“google::protobuf::RepeatedField<bool>”的声明
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(5145,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(6510,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(6642,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(6716,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(8052,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(8341,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(8719,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(10093,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(12270,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(14562,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(15459,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(16413,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(18231,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(20206,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(20228,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(21346,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(21440,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(21462,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(22855,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(23127,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(23987,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(24464,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(24882,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(26204,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(26217,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(27136,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(27496,17): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(28909,15): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/has_bits.h(74,66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/has_bits.h(73,8): message : 在编译 类 模板 成员函数“void google::protobuf::internal::HasBits<1>::Or(const google::protobuf::internal::HasBits<1> &)”时
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(4114,23): message : 请参阅 "caffe::BlobProto::_InternalParse" 中对 "google::protobuf::internal::HasBits<1>::Or" 的第一个引用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/has_bits.h(84,1): message : 查看对正在编译的 类 模板 实例化“google::protobuf::internal::HasBits<1>”的引用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/io/coded_stream.h(786,33): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(4155,20): message : 查看对正在编译的函数 模板 实例化“uint8_t *google::protobuf::io::EpsCopyOutputStream::WriteFixedPacked<google::protobuf::RepeatedField<float>>(int,const T &,uint8_t *)”的引用
+          with
+          [
+              T=google::protobuf::RepeatedField<float>
+          ]
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/parse_context.h(972,22): warning C4244: “参数”: 从“uint64_t”转换到“int”，可能丢失数据
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(27504,52): message : 查看对正在编译的函数 模板 实例化“const char *google::protobuf::internal::PackedEnumParser<google::protobuf::UnknownFieldSet>(void *,const char *,google::protobuf::internal::ParseContext *,bool (__cdecl *)(int),google::protobuf::internal::InternalMetadata *,int)”的引用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/parse_context.h(973,57): warning C4244: “参数”: 从“uint64_t”转换到“const Element”，可能丢失数据
+          with
+          [
+              Element=int32_t
+          ]
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/parse_context.h(836,18): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/parse_context.h(970,13): message : 查看对正在编译的函数 模板 实例化“const char *google::protobuf::internal::EpsCopyInputStream::ReadPackedVarint<google::protobuf::internal::PackedEnumParser::<lambda_f1998f7c2e6708b97797fb1afb8373ab>>(const char *,Add)”的引用
+          with
+          [
+              Add=google::protobuf::internal::PackedEnumParser::<lambda_f1998f7c2e6708b97797fb1afb8373ab>
+          ]
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\include\caffe\proto\caffe.pb.cc(27504,52): message : 查看对正在编译的函数 模板 实例化“const char *google::protobuf::internal::PackedEnumParser<google::protobuf::UnknownFieldSet>(void *,const char *,google::protobuf::internal::ParseContext *,bool (__cdecl *)(int),google::protobuf::internal::InternalMetadata *,int)”的引用
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/parse_context.h(840,17): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+C:\Users\18282\source\repos\vcpkg\installed\x64-windows\include\google/protobuf/parse_context.h(861,30): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  caffeproto.vcxproj -> C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\lib\Debug\caffeproto-d.lib

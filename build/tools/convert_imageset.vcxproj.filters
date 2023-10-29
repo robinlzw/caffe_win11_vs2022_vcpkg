@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\tools\convert_imageset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\tools\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87D267E2-0E45-3E61-8836-65E0785B1842}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.obj.cmake.pre-gen
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir/cuda_compile_1_generated_test_im2col_kernel.cu.obj.depend
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/src/caffe/test/CMakeLists.txt
+C:/Users/18282/source/repos/vcpkg/downloads/tools/cmake-3.27.1-windows/cmake-3.27.1-windows-i386/share/cmake-3.27/Modules/FindCUDA/run_nvcc.cmake

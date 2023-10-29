@@ -1,0 +1,9 @@
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/INSTALL.dir
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/CMakeFiles/caffeproto.dir
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/CMakeFiles/caffe.dir
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/CMakeFiles/INSTALL.dir
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/test.testbin.dir
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/runtest.dir
+C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/INSTALL.dir

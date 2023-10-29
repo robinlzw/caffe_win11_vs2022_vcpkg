@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\CMakeFiles\9ca084b12c3d74e3f383899f24fb50f9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\ConfigGen.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\Cuda.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\Dependencies.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\External\gflags.cmake">
+      <Filter>Buildsystem Input Files\cmake\External</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\External\glog.cmake">
+      <Filter>Buildsystem Input Files\cmake\External</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\Misc.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\Modules\FindLMDB.cmake">
+      <Filter>Buildsystem Input Files\cmake\Modules</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\ProtoBuf.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\Summary.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\Targets.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\Templates\caffe_config.h.in">
+      <Filter>Buildsystem Input Files\cmake\Templates</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\cmake\Utils.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\src\caffe</Filter>
+    </None>
+    <None Include="C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\src\caffe\test</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{090E03E4-8B55-3635-899D-BFA8ED440C96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BB0F84A4-C475-3AA0-9FB6-F0D81F8729C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake">
+      <UniqueIdentifier>{C502148C-72D0-32DC-8F64-01E8EA3718A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake\External">
+      <UniqueIdentifier>{0D1EF7CC-0923-3845-A4E8-7524D6CA661E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake\Modules">
+      <UniqueIdentifier>{34E19EAF-2111-361F-B212-EC1ECD87A33E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake\Templates">
+      <UniqueIdentifier>{0C36F941-4520-3383-8D2C-E8401C375ECF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\src\caffe">
+      <UniqueIdentifier>{DE39F062-47B6-35A8-A352-3F2D27207F17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\src\caffe\test">
+      <UniqueIdentifier>{F6D4E0B1-52D6-3D26-A7F9-928487C1E8A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

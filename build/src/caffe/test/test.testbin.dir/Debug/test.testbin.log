@@ -1,0 +1,9 @@
+﻿  Building NVCC (Device) object src/caffe/test/CMakeFiles/cuda_compile_1.dir/Debug/cuda_compile_1_generated_test_im2col_kernel.cu.obj
+  test_im2col_kernel.cu
+C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_im2col_kernel.cu(3): fatal error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥済test/gtest.h鈥? No such file or directory
+  CMake Error at cuda_compile_1_generated_test_im2col_kernel.cu.obj.Debug.cmake:220 (message):
+    Error generating
+    C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//Debug/cuda_compile_1_generated_test_im2col_kernel.cu.obj
+  
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(249,5): error MSB8066: “C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\test_im2col_kernel.cu;C:\Users\18282\Documents\ws\face_swap\dependence\caffe\src\caffe\test\CMakeLists.txt”的自定义生成已退出，代码为 1。

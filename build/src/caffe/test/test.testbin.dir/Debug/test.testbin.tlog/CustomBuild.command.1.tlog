@@ -1,0 +1,26 @@
+^C:\USERS\18282\DOCUMENTS\WS\FACE_SWAP\DEPENDENCE\CAFFE\SRC\CAFFE\TEST\TEST_IM2COL_KERNEL.CU
+setlocal
+cd C:\Users\18282\Documents\ws\face_swap\dependence\caffe\build\src\caffe\test\CMakeFiles\cuda_compile_1.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -E make_directory C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -D verbose:BOOL=OFF -D "CCBIN:PATH=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools/MSVC/14.37.32822/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D generated_file:STRING=C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//Debug/cuda_compile_1_generated_test_im2col_kernel.cu.obj -D generated_cubin_file:STRING=C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//Debug/cuda_compile_1_generated_test_im2col_kernel.cu.obj.cubin.txt -P C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/cuda_compile_1.dir//cuda_compile_1_generated_test_im2col_kernel.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\18282\DOCUMENTS\WS\FACE_SWAP\DEPENDENCE\CAFFE\SRC\CAFFE\TEST\CMAKELISTS.TXT
+setlocal
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -SC:/Users/18282/Documents/ws/face_swap/dependence/caffe -BC:/Users/18282/Documents/ws/face_swap/dependence/caffe/build --check-stamp-file C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/src/caffe/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

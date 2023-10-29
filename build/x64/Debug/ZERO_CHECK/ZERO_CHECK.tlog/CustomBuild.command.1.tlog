@@ -1,0 +1,10 @@
+^C:\USERS\18282\DOCUMENTS\WS\FACE_SWAP\DEPENDENCE\CAFFE\BUILD\CMAKEFILES\9CA084B12C3D74E3F383899F24FB50F9\GENERATE.STAMP.RULE
+setlocal
+C:\Users\18282\source\repos\vcpkg\downloads\tools\cmake-3.27.1-windows\cmake-3.27.1-windows-i386\bin\cmake.exe -SC:/Users/18282/Documents/ws/face_swap/dependence/caffe -BC:/Users/18282/Documents/ws/face_swap/dependence/caffe/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/18282/Documents/ws/face_swap/dependence/caffe/build/Caffe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
